@@ -13,7 +13,7 @@ int main()
     std::string str1 = "aabaabaa";  //3 2 2 6
     std::string str2 = "baaababa";  //1 1 1 5
     std::string str3 = "baaaababa"; //2 1 1 6
-    std::string str4 = "aba";       //0 0 0 0
+    std::string str4 = "";          //0 0 0 0
 
     assert(for_each(str1.begin(), str1.end(), counter1).GetTokenCount() == 3);
     assert(for_each(str1.begin(), str1.end(), counter2).GetTokenCount() == 2);
